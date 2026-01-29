@@ -40,6 +40,17 @@
 
 ###
 
+## 🏅 Certificações em Destaque
+
+| Certificado | Instituição | Ano |
+| :--- | :--- | :--- |
+| **JavaScript Essentials 1** | Cisco Networking Academy | 2024 |
+| **Introduction to Cybersecurity** | Cisco Networking Academy | 2024 |
+| **Monitoria de Programação** | IFSP Bragança Paulista | 2023 |
+| **Palestrante Workshop Python** | IFSP Bragança Paulista | 2021 |
+
+###
+
 <br clear="both">
 
 <h1 align="center">Minhas estatísticas</h1>
