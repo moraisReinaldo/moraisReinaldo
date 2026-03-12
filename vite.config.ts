@@ -148,7 +148,9 @@ const plugins = [
 
 export default defineConfig({
   base: "/moraisReinaldo/",
+  root: "client",
   build: {
-    outDir: "dist"
+    outDir: "../dist",
+    emptyOutDir: true
   }
 });
