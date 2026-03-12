@@ -6,6 +6,7 @@ import path from "node:path";
 import { defineConfig, type Plugin, type ViteDevServer } from "vite";
 import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 
+
 const PROJECT_ROOT = import.meta.dirname;
 const LOG_DIR = path.join(PROJECT_ROOT, ".manus-logs");
 const MAX_LOG_SIZE_BYTES = 1 * 1024 * 1024;
@@ -149,8 +150,13 @@ const plugins = [
 export default defineConfig({
   base: "/moraisReinaldo/",
   root: "client",
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "client/src")
+    }
+  },
   build: {
-    outDir: "../dist",
+    outDir: "dist",
     emptyOutDir: true
   }
-});
+})
