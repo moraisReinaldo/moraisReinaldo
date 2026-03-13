@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>Portfólio de Reinaldo Henrique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <button type="button" class="logo" data-nav="home">Reinaldo</button>
+      <nav class="nav-desktop">
+        <button type="button" data-nav="projects">Projetos</button>
+        <button type="button" data-nav="skills">Habilidades</button>
+        <button type="button" data-nav="experience">Experiência</button>
+        <button type="button" data-nav="contact">Contato</button>
+      </nav>
+      <a href="curriculo_reinaldo.pdf" download class="btn btn-primary btn-cv">Baixar CV</a>
+      <button type="button" class="menu-toggle" aria-label="Abrir menu" id="menuToggle">
+        <svg class="icon-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="icon-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <nav class="nav-mobile" id="navMobile" aria-hidden="true">
+      <div class="container nav-mobile-inner">
+        <button type="button" data-nav="projects">Projetos</button>
+        <button type="button" data-nav="skills">Habilidades</button>
+        <button type="button" data-nav="experience">Experiência</button>
+        <button type="button" data-nav="contact">Contato</button>
+        <a href="curriculo_reinaldo.pdf" download class="btn btn-primary">Baixar CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" style="background-image: url('https://d2xsxph8kpxj0f.cloudfront.net/310519663430955344/AtChUsa6HxJw2P4K9fsZ6j/hero_bg_7c2762b4.jpg')"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="eyebrow">Desenvolvedor Full Stack</span>
+          <h1 class="hero-title">Transformando ideias em código de qualidade</h1>
+          <p class="hero-subtitle">Especializado em React, Spring Boot, Flutter e SQL. Pronto para impulsionar seu projeto com soluções robustas e inovadoras em regime home office.</p>
+          <div class="hero-cta">
+            <button type="button" class="btn btn-primary btn-lg" data-nav="projects">
+              Ver Projetos
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+            <a href="curriculo_reinaldo.pdf" download class="btn btn-outline btn-lg">Baixar CV</a>
+          </div>
+          <div class="hero-social">
+            <span class="hero-social-label">Conecte-se:</span>
+            <a href="mailto:rhestudante07@gmail.com" class="social-icon" title="E-mail"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+            <a href="https://www.linkedin.com/in/reinaldo-henrique-morais-a9b019240" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+            <a href="https://github.com/moraisReinaldo" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+          </div>
+        </div>
+        <div class="hero-deco" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-gray" data-animate>
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p class="about-p">Sou desenvolvedor Full Stack com paixão por criar soluções tecnológicas inovadoras. Com experiência em Java, React, Flutter e SQL, já contribuí para projetos desafiadores como sistemas de portaria e aplicações web robustas.</p>
+            <p class="about-p">Atualmente cursando Análise e Desenvolvimento de Sistemas no 5º semestre, com formação técnica em Informática pelo IFSP. Busco oportunidades em regime home office para aplicar meus conhecimentos e crescer continuamente como profissional.</p>
+            <div class="about-languages">
+              <h3 class="about-subtitle">Idiomas</h3>
+              <div class="lang-list">
+                <div class="lang-item"><span class="lang-dot"></span><span>Português (Nativo)</span></div>
+                <div class="lang-item"><span class="lang-dot"></span><span>Inglês (Intermediário/Avançado)</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="about-card">
+            <h3 class="about-card-title">Informações de Contato</h3>
+            <div class="about-info-list">
+              <div class="about-info-item">
+                <div class="about-info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                <div><p class="about-info-label">E-mail</p><a href="mailto:rhestudante07@gmail.com" class="about-info-value">rhestudante07@gmail.com</a></div>
+              </div>
+              <div class="about-info-item">
+                <div class="about-info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                <div><p class="about-info-label">Telefone</p><a href="tel:+5511996899390" class="about-info-value">(11) 99689-9390</a></div>
+              </div>
+              <div class="about-info-item">
+                <div class="about-info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><p class="about-info-label">Localização</p><p class="about-info-value">Joanópolis, SP</p></div>
+              </div>
+              <div class="about-info-item">
+                <div class="about-info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+                <div><p class="about-info-label">Disponibilidade</p><p class="about-info-value">Home Office</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section" data-animate>
+      <div class="container">
+        <h2 class="section-title section-title-center">Habilidades Técnicas</h2>
+        <p class="section-subtitle">Stack completo de tecnologias modernas para desenvolvimento Full Stack</p>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+              <h3>Linguagens</h3>
+            </div>
+            <div class="skill-tags"><span>Java</span><span>JavaScript</span><span>TypeScript</span><span>Dart</span><span>Python</span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+              <h3>Frameworks & Bibliotecas</h3>
+            </div>
+            <div class="skill-tags"><span>Spring Boot</span><span>React</span><span>Flutter</span><span>Django</span><span>Node.js</span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+              <h3>Banco de Dados</h3>
+            </div>
+            <div class="skill-tags"><span>SQL</span><span>MySQL</span><span>PostgreSQL</span><span>Firebase</span></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+              <h3>Ferramentas & Outros</h3>
+            </div>
+            <div class="skill-tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>IntelliJ IDEA</span><span>REST APIs</span></div>
+          </div>
+        </div>
+        <div class="certifications">
+          <h3 class="cert-title">Certificações</h3>
+          <div class="cert-grid">
+            <div class="cert-item"><span class="cert-dot"></span><div><p class="cert-name">JavaScript Essentials 1</p><p class="cert-org">Cisco Networking Academy (2024)</p></div></div>
+            <div class="cert-item"><span class="cert-dot"></span><div><p class="cert-name">Introduction to Cybersecurity</p><p class="cert-org">Cisco Networking Academy (2024)</p></div></div>
+            <div class="cert-item"><span class="cert-dot"></span><div><p class="cert-name">Monitoria de Programação</p><p class="cert-org">IFSP Bragança Paulista (2023)</p></div></div>
+            <div class="cert-item"><span class="cert-dot"></span><div><p class="cert-name">Palestrante Workshop Python</p><p class="cert-org">IFSP Bragança Paulista (2021)</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-gray" data-animate>
+      <div class="container">
+        <h2 class="section-title section-title-center">Projetos Destacados</h2>
+        <p class="section-subtitle">Seleção de projetos que demonstram minhas habilidades em desenvolvimento Full Stack</p>
+        <div class="filter-bar">
+          <button type="button" class="filter-btn active" data-filter="all">Todos</button>
+          <button type="button" class="filter-btn" data-filter="fullstack">Full Stack</button>
+          <button type="button" class="filter-btn" data-filter="backend">Backend</button>
+          <button type="button" class="filter-btn" data-filter="frontend">Frontend</button>
+          <button type="button" class="filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card" data-category="fullstack">
+            <div class="project-card-header">
+              <h3>Sistema de Portaria - Condomínio do Porto</h3>
+              <p class="project-year">2023-2024</p>
+            </div>
+            <div class="project-card-body">
+              <p>Sistema completo de portaria para controle de acesso e segurança. Desenvolvido com Java e SQL, oferecendo funcionalidades robustas para gerenciamento de residentes e visitantes.</p>
+              <div class="project-techs"><span>Java</span><span>SQL</span><span>Spring Boot</span></div>
+              <a href="https://github.com/moraisReinaldo/Portaria_Condominio_do_Porto" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Ver no GitHub <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="fullstack">
+            <div class="project-card-header">
+              <h3>Sistema de Portaria - Top Ville</h3>
+              <p class="project-year">2023-2024</p>
+            </div>
+            <div class="project-card-body">
+              <p>Aplicação de portaria para condomínio Top Ville com funcionalidades avançadas de controle de acesso. Implementado em Java com integração de banco de dados SQL.</p>
+              <div class="project-techs"><span>Java</span><span>SQL</span><span>Backend</span></div>
+              <a href="https://github.com/moraisReinaldo/Portaria_condominio_TopVille" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Ver no GitHub <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="backend">
+            <div class="project-card-header">
+              <h3>YouTube Downloader</h3>
+              <p class="project-year">2023</p>
+            </div>
+            <div class="project-card-body">
+              <p>Aplicação Python para download de vídeos do YouTube. Ferramenta útil com interface simples e funcionalidades de conversão de qualidade.</p>
+              <div class="project-techs"><span>Python</span><span>CLI</span></div>
+              <a href="https://github.com/moraisReinaldo/YoutubeDowloader" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Ver no GitHub <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="mobile">
+            <div class="project-card-header">
+              <h3>Defesa em Foco - App Flutter</h3>
+              <p class="project-year">2024-2025</p>
+            </div>
+            <div class="project-card-body">
+              <p>Aplicativo mobile em Flutter para gestão e informações de Defesa Civil. Desenvolvido com suporte multiplataforma (iOS, Android, Web), oferecendo interface intuitiva e funcionalidades robustas para acesso a informações de defesa e segurança.</p>
+              <div class="project-techs"><span>Flutter</span><span>Dart</span><span>Mobile</span></div>
+              <a href="https://github.com/moraisReinaldo/Defesa" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Ver no GitHub <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="backend">
+            <div class="project-card-header">
+              <h3>Análise de Similaridade - Bragantec</h3>
+              <p class="project-year">2023</p>
+            </div>
+            <div class="project-card-body">
+              <p>Projeto de análise de similaridade desenvolvido em Java. Implementa algoritmos de comparação e processamento de dados.</p>
+              <div class="project-techs"><span>Java</span><span>Análise de Dados</span></div>
+              <a href="https://github.com/moraisReinaldo/Similaridade_Na_Bragantec" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Ver no GitHub <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section" data-animate>
+      <div class="container">
+        <h2 class="section-title section-title-center">Experiência Profissional</h2>
+        <p class="section-subtitle">Trajetória profissional e acadêmica em desenvolvimento de software</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-connector"></div>
+            <div class="timeline-icon timeline-icon-current"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div><h3>Agente de Defesa Civil</h3><p class="timeline-company">Defesa Civil</p></div>
+                <span class="timeline-badge">ATUAL</span>
+              </div>
+              <p class="timeline-period">Atual</p>
+              <p class="timeline-desc">Atuação em gestão de riscos e resposta a emergências, desenvolvendo habilidades de organização e resolução de problemas em ambientes de alta pressão.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-connector"></div>
+            <div class="timeline-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+            <div class="timeline-content">
+              <div class="timeline-header"><div><h3>Estagiário em Suporte e Desenvolvimento</h3><p class="timeline-company">Prefeitura de Joanópolis</p></div></div>
+              <p class="timeline-period">2023-2024</p>
+              <p class="timeline-desc">Suporte técnico a usuários e sistemas, garantindo a continuidade das operações. Participação no desenvolvimento de soluções tecnológicas para otimização de serviços públicos.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-connector"></div>
+            <div class="timeline-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+            <div class="timeline-content">
+              <div class="timeline-header"><div><h3>Desenvolvedor Full Stack</h3><p class="timeline-company">Condomínio Top Ville</p></div></div>
+              <p class="timeline-period">2023-2024</p>
+              <p class="timeline-desc">Atuação no desenvolvimento de sistemas de portaria, com foco em Java e SQL. Colaboração na análise de requisitos e na entrega de soluções que atendiam às necessidades do cliente.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-connector"></div>
+            <div class="timeline-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+            <div class="timeline-content">
+              <div class="timeline-header"><div><h3>Desenvolvedor Full Stack</h3><p class="timeline-company">Condomínio do Porto</p></div></div>
+              <p class="timeline-period">2023</p>
+              <p class="timeline-desc">Desenvolvimento e manutenção de sistemas de portaria, utilizando Java e SQL. Implementação de funcionalidades para otimização de processos de segurança e controle de acesso.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-connector"></div>
+            <div class="timeline-icon timeline-icon-current"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div><h3>Análise e Desenvolvimento de Sistemas</h3><p class="timeline-company">Instituto Federal de São Paulo (IFSP)</p></div>
+                <span class="timeline-badge">ATUAL</span>
+              </div>
+              <p class="timeline-period">2023-2025 (5º semestre)</p>
+              <p class="timeline-desc">Cursando Análise e Desenvolvimento de Sistemas com foco em desenvolvimento de software, arquitetura de sistemas e metodologias ágeis.</p>
+            </div>
+          </div>
+          <div class="timeline-item timeline-item-last">
+            <div class="timeline-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+            <div class="timeline-content">
+              <div class="timeline-header"><div><h3>Técnico em Informática</h3><p class="timeline-company">Instituto Federal de São Paulo (IFSP)</p></div></div>
+              <p class="timeline-period">Concluído</p>
+              <p class="timeline-desc">Formação técnica em Informática com ênfase em programação, redes e suporte técnico.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact" data-animate>
+      <div class="container">
+        <div class="contact-intro">
+          <h2 class="section-title">Vamos Trabalhar Juntos?</h2>
+          <p>Estou sempre aberto a novas oportunidades e desafios. Se você tem um projeto interessante ou gostaria de conversar sobre desenvolvimento, não hesite em entrar em contato!</p>
+        </div>
+        <div class="contact-grid">
+          <a href="mailto:rhestudante07@gmail.com" class="contact-card">
+            <div class="contact-card-icon contact-icon-mail"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div class="contact-card-text"><h3>E-mail</h3><p>rhestudante07@gmail.com</p></div>
+          </a>
+          <a href="tel:+5511996899390" class="contact-card">
+            <div class="contact-card-icon contact-icon-phone"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div class="contact-card-text"><h3>Telefone</h3><p>(11) 99689-9390</p></div>
+          </a>
+          <a href="https://www.linkedin.com/in/reinaldo-henrique-morais-a9b019240" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-card-icon contact-icon-linkedin"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+            <div class="contact-card-text"><h3>LinkedIn</h3><p>Reinaldo Henrique Morais</p></div>
+          </a>
+          <a href="https://github.com/moraisReinaldo" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-card-icon contact-icon-github"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></div>
+            <div class="contact-card-text"><h3>GitHub</h3><p>moraisReinaldo</p></div>
+          </a>
+        </div>
+        <div class="contact-cta">
+          <a href="mailto:rhestudante07@gmail.com" class="btn btn-primary btn-lg"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> Enviar E-mail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© <span id="currentYear"></span> Reinaldo Henrique Morais. Todos os direitos reservados.</p>
+      <nav class="footer-nav">
+        <a href="#about">Sobre</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Projetos</a>
+        <a href="#experience">Experiência</a>
+      </nav>
+      <p class="footer-credit">Desenvolvido com HTML, CSS e JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
