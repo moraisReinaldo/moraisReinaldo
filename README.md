@@ -65,11 +65,6 @@ Sou um **Desenvolvedor Full Stack** apaixonado por criar soluções tecnológica
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=moraisReinaldo&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true" height="170" alt="Estatísticas do GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moraisReinaldo&layout=compact&theme=dracula&hide_border=true" height="170" alt="Linguagens mais utilizadas" />
-</div>
-
 <p align="center">
   <i>"Transformando ideias em código de qualidade."</i>
 </p>
