@@ -9,7 +9,7 @@
   <a href="mailto:rhestudante07@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://moraisreinaldo.github.io" target="_blank">
+  <a href="https://moraisreinaldo.github.io/moraisReinaldo/" target="_blank">
     <img src="https://img.shields.io/badge/Meu_Portfólio-252525?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
   </a>
 </p>
